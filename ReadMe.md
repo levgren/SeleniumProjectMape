@@ -14,6 +14,7 @@ Test #2.
 
 What was used:
 - Selenium
+- Maven
 - Junit
 - Page object pattern
 - Video-recorder
@@ -23,4 +24,4 @@ What was used:
 
 You can change browsers in config.properties file (chrome, firefox, opera, edge browsers are supported)
 
-For running this project, you need to go to the projects directory and execute the command: mvn clean test
+For running this project, you need in command line go to the projects directory and execute the command: mvn clean test
