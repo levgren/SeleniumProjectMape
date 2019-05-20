@@ -1,9 +1,7 @@
 import com.automation.remarks.junit.VideoRule;
+import driver.DriverConstructor;
 import driver.ThreadLocalDriver;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Rule;
+import org.junit.*;
 import pageObgects.MainPage;
 
 import java.io.FileInputStream;

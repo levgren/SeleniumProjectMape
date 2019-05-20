@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class DriverConstructor {
 
     private static WebDriver driver = null;
-    private DriverConstructor() {
+    public DriverConstructor() {
         if (driver == null && System.getProperty("browser").equals("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
